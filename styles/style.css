@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Rokkitt');
+.shopping-cart{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:600px;
+  height:400px;
+  background-color: #fff;
+  border:10px solid purple;
+}
+
+
+.heading{
+  font-size:35px;
+  text-align:center;
+  margin-top:25px;
+}
+.item1{
+  display:flex;
+  align-content:center;
+  align-items:center;
+  justify-content: center;
+}
+input{
+  border:2px solid gray;
+}
+.item2{
+  display:flex;
+  align-content:center;
+  align-items:center;
+  justify-content: center;
+}
+
+.item3{
+  display:flex;
+  align-content:center;
+  align-items:center;
+  justify-content: center;
+}
+ .heart .red{
+  color:red;
+}
+.heart{
+  cursor:pointer;
+}
+.row{
+  border-bottom:2px solid black;
+}
+.plus1,.plus2,.plus3,.minus1,.minus2,.minus3{
+  cursor:pointer;
+}
+.item-name{
+  font-family:Rokkitt;
+  font-size:24px;
+}
+[class*="tot"]{
+  font-family:Rokkitt;
+  font-size:24px;
+}
+.close1{
+  cursor:pointer;
+}
